@@ -21,7 +21,6 @@ window.onload = () => {
       [4, 9, 6, 1, 0, 7, 0, 2, 0],
   
     ];
-  
     let a = document.querySelectorAll("input");
   
     console.log(a);
