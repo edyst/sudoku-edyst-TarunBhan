@@ -28,7 +28,7 @@ var GridSums = 0;
 // (Function triggering on window loading) 
 
 window.onload = function () {
-  alert("Welcome to Abhimanyu's Sudoku");
+  alert("Welcome to Sudoku Game");
   id("thats-easy").addEventListener("click", starteasy);    // Difficulty : Easy
   id("thats-okay").addEventListener("click", startokay);    // Difficulty : Medium
   id("oops-hard").addEventListener("click", starthard);     // Difficulty : Hard
@@ -165,7 +165,7 @@ function validation() {
     alert("You Have Completed!! :-) ")
   }
   else {
-    alert("Something Went Wrong! Keep Trying :-( ")
+    alert("Something Went Wrong! try again ")
   }
 }
 
